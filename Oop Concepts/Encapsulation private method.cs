@@ -1,0 +1,38 @@
+using System;
+
+class Test
+{
+    private int Compute1()
+    {
+        return 1; // Private instance method that computes something.
+    }
+
+    public int Compute2()
+    {
+        return this.Compute1() + 1; // Public instance method.
+    }
+
+    private static int Compute3()
+    {
+        return 3; // Private static method that computes.
+    }
+
+    public static int Compute4()
+    {
+        return Compute3() + 1; // Public static method.
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Create new instance of the Test class.
+        // ... You can only call the Compute2 public instance method.
+        Test test = new Test();
+        Console.WriteLine(test.Compute2());
+        // Call the public static method.
+        // ... You cannot access the private static method.
+        Console.WriteLine(Test.Compute4());
+    }
+}
