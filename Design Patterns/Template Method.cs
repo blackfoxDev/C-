@@ -2,7 +2,7 @@ using System;
 
  
 
-namespace DoFactory.GangOfFour.Template.Structural
+namespace Template.Structural
 
 {
 
