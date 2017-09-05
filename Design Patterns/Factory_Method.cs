@@ -2,7 +2,7 @@ using System;
 
  
 
-namespace DoFactory.GangOfFour.Factory.Structural
+namespace Factory.Structural
 
 {
 
