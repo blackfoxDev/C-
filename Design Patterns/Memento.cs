@@ -6,7 +6,7 @@ using System;
 
  
 
-namespace DoFactory.GangOfFour.Memento.Structural
+namespace Memento.Structural
 
 {
 
