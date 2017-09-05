@@ -4,7 +4,7 @@ using System.Collections;
 
  
 
-namespace DoFactory.GangOfFour.Interpreter.Structural
+namespace Interpreter.Structural
 
 {
 
