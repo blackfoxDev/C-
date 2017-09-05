@@ -4,7 +4,7 @@ using System;
 
  
 
-namespace DoFactory.GangOfFour.Strategy.Structural
+namespace Strategy.Structural
 
 {
 
