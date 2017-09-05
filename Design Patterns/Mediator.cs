@@ -2,7 +2,7 @@ using System;
 
  
 
-namespace DoFactory.GangOfFour.Mediator.Structural
+namespace Mediator.Structural
 
 {
 
